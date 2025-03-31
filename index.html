@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Advanced HTML5 Page</title>
+    <link rel="stylesheet" href="style.css">  <!-- Linking External CSS -->
+</head>
+<body>
+    <header>
+        <h1 class="title">Welcome to My Advanced HTML5 CSS Page</h1>
+    </header>
+
+    <h2>Ordered List Example</h2>
+    <ol type="I">
+      <li>HTML Basics</li>
+      <li>CSS Styling</li>
+      <li>JavaScript Basics</li>
+      <li>Web Accessibility</li>
+    </ol>
+
+    <h2>External Image</h2>
+    <img src="tech-accessories.jpg" alt="Tech Accessories" width="500" class="styled-image" />
+
+    <h2>Contact List</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>123 Main St, Nairobi</td>
+          <td>+254 712345678</td>
+          <td>johndoe@example.com</td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>456 Elm St, Mombasa</td>
+          <td>+254 798765432</td>
+          <td>janesmith@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required />
+      <br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required />
+      <br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter a strong password" required />
+      <br /><br />
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required />
+      <br /><br />
+
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" required /> Male
+      <input type="radio" id="female" name="gender" value="female" required /> Female
+      <br /><br />
+
+      <label>Hobbies:</label>
+      <input type="checkbox" name="hobbies" value="sports" /> Sports
+      <input type="checkbox" name="hobbies" value="music" /> Music
+      <input type="checkbox" name="hobbies" value="art" /> Art
+      <input type="checkbox" name="hobbies" value="travel" /> Travel
+      <br /><br />
+
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <option value="">--Select Country--</option>
+        <option value="Nigeria">Nigeria</option>
+        <option value="Kenya">Kenya</option>
+        <option value="South Africa">South Africa</option>
+        <option value="Ghana">Ghana</option>
+      </select>
+      <br /><br />
+
+      <label for="description">Describe yourself:</label>
+      <textarea id="description" name="description" rows="4" cols="30" placeholder="Tell us about yourself..."></textarea>
+      <br /><br />
+
+      <input type="submit" value="Register" />
+    </form>
+
+    <h2>Audio Example</h2>
+    <audio controls>
+      <source src="audio-file.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <h2>Video Example</h2>
+    <video width="500" controls>
+      <source src="video-file.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <footer>
+        <p>© 2025 My Website</p>
+    </footer>
+</body>
+</html>
+
